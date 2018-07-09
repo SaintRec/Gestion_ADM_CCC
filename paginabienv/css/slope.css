@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #aaa4a427;
+}
+h3{
+    font-family: 'Lobster', 'cursive';
+}
+p{
+    font-family: 'Lobster', 'cursive';
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 1200px;
+    background:transparent;
+    box-shadow: 0 25px 30px rgba(0,0,0,-5);
+    display: flex; 
+    
+}
+.content{
+    height: 50%;
+    width:calc(50% + 50px);
+    background: transparent;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    font-family: sans-serif;
+    color: black;
+    border: rgb(177, 15, 15);
+    margin-left:40px; 
+}
+.image{
+    height: 50%;
+    width: calc(50% + 50px);
+    background:transparent;
+    box-sizing: border-box;
+    border-left: 100px solid transparent;
+    border-bottom: 400px solid transparent;
+    border-bottom-style: dashed;
+}
+    
+
+.btn-primary {
+    background-color: transparent;
+    padding: 12px 45px 12px 45px;
+    margin: 50px 0 10px 0;
+    text-transform: lowercase;
+    border: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: rgb(177, 15, 15);
+    font-weight: 700;
+    font-family: 'Lobster', 'cursive';
+    font-size: 20px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.btn-primary:hover {
+    color: rgb(177, 15, 15);
+    background-color: transparent;
+    border: transparent;
+    border-right: 1px solid rgb(177, 15, 15);
+    border-left: 1px solid rgb(177, 15, 15);
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: red;
+    size: 40px;
+   
+}
+.cantainer:hover .image {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.container {overflow:hidden;}
