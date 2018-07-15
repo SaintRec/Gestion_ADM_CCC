@@ -1,0 +1,163 @@
+﻿/*================================
+    GENERAL STYLES
+==================================*/
+
+
+
+body {
+    font-family: 'Kaushan Script', sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+    background: #aaa4a427;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pad-bottom {
+    padding-bottom: 70px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.btn {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+/*================================
+    HOME STYLES
+==================================*/
+#home {
+    background: url(../imagenes/Arca_continental_logo.png) no-repeat center center; /*Full Witdth background image*/
+    padding: 600;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+  
+}
+
+    #home .overlay {
+        padding-top: 100px;
+        background-color: rgba(224, 226, 226, 0.75); /*.75 opacity of the color so that background image is visible*/
+        min-height:750px;
+        color: rgb(37, 34, 34);
+    }
+
+    #home h4 {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    #home h1 {
+        line-height: 60px;
+        font-size: 30px;
+        
+    }
+    #home .fas{
+        font-size: 80px;
+        color: rgb(177, 15, 15);
+        background-color: transparent;
+        border: transparent;
+        margin: 0%;
+    }
+
+    #home .x{
+        font-size: 60px;
+        color: rgb(177, 15, 15);
+        background-color: transparent;
+        border: transparent;
+        margin: 0%;
+    }
+
+    #home h3 {
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    #home mark {
+        background-color: rgba(0, 0, 0, 0.31);
+        padding: 10px 10px 10px 10px;
+        margin-left: 20px;
+        margin-right: 25px;
+        color: #fff;
+    }
+
+    #home .set-a {
+        margin-top: 60px;
+        font-weight: 900;
+    }
+
+    #home .scroll-me {
+        padding-top: 80px;
+    }
+
+        #home .scroll-me a, .scroll-me a:hover {
+            color: #fff;
+            font-size: 40px;
+        }
+
+/*================================
+    FEATURES STYLES
+==================================*/
+#features {
+
+    color: rgb(37, 34, 34);
+    min-height:0px;
+       
+}
+
+    #features i {
+        font-size: 80px;
+        padding: 0px;
+        color: rgb(177, 15, 15);
+    }
+    #features .container {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #features h2 {
+        padding-bottom: 5px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+    #features h4 {
+        padding-bottom: 5px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+
+    #features .fas{
+        font-size: 80px;
+        color: rgb(177, 15, 15);
+        background-color: transparent;
+        border: transparent;
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+/*================================
+    FOOTER SECTION STYLES
+==================================*/
+
+footer {
+    padding-top: 0px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    background-color:rgb(177, 15, 15);
+    padding-bottom: 0px;
+     
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
